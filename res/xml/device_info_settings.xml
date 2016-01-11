@@ -17,6 +17,64 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 
+		<!-- SoftUI logo -->
+		<PreferenceScreen android:layout="@layout/softui_logo" 
+		        android:selectable="false" >
+		</PreferenceScreen>	
+
+		<!-- SoftUI teammember -->
+		<PreferenceScreen android:title="@string/softui_teammember" 
+		        android:key="softui_teammember" 
+				android:summary="@string/softui_teammember_sub">
+		<!-- SoftUI Genuine -->
+        <Preference android:title="@string/softui_Genuine" 
+		        android:key="softui_homepage" 
+			    android:summary="@string/softui_Genuine_sub" 
+				style="?android:preferenceInformationStyle" />
+		<!-- SoftUI Nugurykim -->
+        <Preference android:title="@string/softui_Nugurykim" 
+		        android:key="softui_homepage" 
+			    android:summary="@string/softui_Nugurykim_sub" 
+				style="?android:preferenceInformationStyle" />
+		<!-- SoftUI TimeWarP -->
+        <Preference android:title="@string/softui_TimeWarP" 
+		        android:key="softui_homepage" 
+			    android:summary="@string/softui_TimeWarP_sub" 
+				style="?android:preferenceInformationStyle" />
+		<!-- SoftUI hannah1199 -->
+        <Preference android:title="@string/softui_hannah1199" 
+		        android:key="softui_homepage" 
+			    android:summary="@string/softui_hannah1199_sub" 
+				style="?android:preferenceInformationStyle" />
+		<!-- SoftUI smartkill12 -->
+        <Preference android:title="@string/softui_smartkill12" 
+		        android:key="softui_homepage" 
+			    android:summary="@string/softui_smartkill12_sub" 
+				style="?android:preferenceInformationStyle" />
+		<!-- SoftUI ghc21 -->
+        <Preference android:title="@string/softui_ghc21" 
+		        android:key="softui_homepage" 
+			    android:summary="@string/softui_ghc21_sub" 
+				style="?android:preferenceInformationStyle" />
+		<!-- SoftUI abin030187 -->
+        <Preference android:title="@string/softui_abin030187" 
+		        android:key="softui_homepage" 
+			    android:summary="@string/softui_abin030187_sub" 
+				style="?android:preferenceInformationStyle" />
+		</PreferenceScreen>	
+		
+		<!-- SoftUI Homepage -->
+        <Preference android:title="@string/softui_homepage" 
+		        android:key="softui_homepage" 
+			    android:summary="@string/softui_homepage_sub" 
+				style="?android:preferenceInformationStyle" />
+		
+		<!-- SoftUI version -->
+        <Preference android:title="@string/softui_version" 
+		        android:key="softui_version" 
+			    android:summary="@string/softui_version_sub" 
+				style="?android:preferenceInformationStyle" />
+		
         <!-- System update settings - launches activity -->
         <PreferenceScreen android:key="system_update_settings"
                 android:title="@string/system_update_settings_list_item_title" 

@@ -6062,5 +6062,25 @@
    <string name="imei_information_title">IMEI information</string>
    <string name="imei_information_summary">IMEI relative information</string>
    <string name="slot_number">(Slot<xliff:g id="slot_num">%1$d</xliff:g>)</string>
-
+   <string name="softui_teammember">SoftUI 팀원</string>
+   <string name="softui_teammember_sub">SoftUI teammember</string>
+   <string name="softui_Genuine">Genuine</string>
+   <string name="softui_Genuine_sub">pjoonwoo3@naver.com</string>
+   <string name="softui_Nugurykim">Nugurykim</string>
+   <string name="softui_Nugurykim_sub">nugurykim@naver.com</string>
+   <string name="softui_TimeWarP">TimeWarP</string>
+   <string name="softui_TimeWarP_sub">jihyun0220@naver.com</string>
+   <string name="softui_hannah1199">달도화지</string>
+   <string name="softui_hannah1199_sub">hannah1199@naver.com</string>
+   <string name="softui_smartkill12">디빌로이드</string>
+   <string name="softui_smartkill12_sub">smartkill12@naver.com</string>
+   <string name="softui_ghc21">유니코드</string>
+   <string name="softui_ghc21_sub">ghc21@naver.com</string>
+   <string name="softui_abin030187">풀그린</string>
+   <string name="softui_abin030187_sub">abin030187@naver.com</string>
+   <string name="softui_homepage">SoftUI 홈페이지</string>
+   <string name="softui_homepage_sub">softui.pe.hu</string>
+   <string name="softui_version">SoftUI 버전</string>
+   <string name="softui_version_sub">SoftUI-1.0 BETA</string>
+   
 </resources>
