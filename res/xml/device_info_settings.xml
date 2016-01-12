@@ -61,6 +61,11 @@
 		        android:key="softui_homepage" 
 			    android:summary="@string/softui_smartkill12_sub" 
 				style="?android:preferenceInformationStyle" />
+	    <!-- SoftUI draupnir4907 -->
+        <Preference android:title="@string/softui_draupnir4907" 
+		        android:key="softui_homepage" 
+			    android:summary="@string/softui_draupnir4907_sub" 
+				style="?android:preferenceInformationStyle" />
 		<!-- SoftUI ghc21 -->
         <Preference android:title="@string/softui_ghc21" 
 		        android:key="softui_homepage" 
