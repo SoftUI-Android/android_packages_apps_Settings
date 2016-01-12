@@ -41,6 +41,16 @@
 		        android:key="softui_homepage" 
 			    android:summary="@string/softui_TimeWarP_sub" 
 				style="?android:preferenceInformationStyle" />
+		<!-- SoftUI Tveloper -->
+        <Preference android:title="@string/softui_Tveloper" 
+		        android:key="softui_homepage" 
+			    android:summary="@string/softui_Tveloper_sub" 
+				style="?android:preferenceInformationStyle" />
+		<!-- SoftUI puppy1900 -->
+        <Preference android:title="@string/softui_puppy1900" 
+		        android:key="softui_homepage" 
+			    android:summary="@string/softui_puppy1900_sub" 
+				style="?android:preferenceInformationStyle" />	
 		<!-- SoftUI hannah1199 -->
         <Preference android:title="@string/softui_hannah1199" 
 		        android:key="softui_homepage" 
