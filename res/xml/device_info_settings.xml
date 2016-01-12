@@ -83,6 +83,12 @@
 		        android:key="softui_homepage" 
 			    android:summary="@string/softui_homepage_sub" 
 				style="?android:preferenceInformationStyle" />
+				
+		<!-- SoftUI twitter -->
+        <Preference android:title="@string/softui_twitter" 
+		        android:key="softui_twitter" 
+			    android:summary="@string/softui_twitter_sub" 
+				style="?android:preferenceInformationStyle" />
 		
 		<!-- SoftUI version -->
         <Preference android:title="@string/softui_version" 
