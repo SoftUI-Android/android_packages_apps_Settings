@@ -6086,5 +6086,6 @@
    <string name="softui_homepage_sub">softui.pe.hu</string>
    <string name="softui_version">SoftUI 버전</string>
    <string name="softui_version_sub">SoftUI-1.0 BETA</string>
+   <string name="device_control_settings_title">디바이스 컨트롤</string>
    
 </resources>
