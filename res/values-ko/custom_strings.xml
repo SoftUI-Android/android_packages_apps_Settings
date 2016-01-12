@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 - 2015 The NamelessROM Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="mod_version_n">Nameless 버전</string>
+
+    <string name="more">더보기</string>
+
+    <!-- Advanced Device Info -->
+    <string name="advanced_device_info_title">고급 정보</string>
+    <string name="advanced_device_info_summary">CPU,GPU 정보</string>
+    <!-- CPU -->
+    <string name="cpu_processor">CPU</string>
+    <string name="cpu_processor_hardware">하드웨어</string>
+    <string name="cpu_type">CPU 타입</string>
+    <string name="cpu_features">CPU 기능</string>
+    <!-- Memory -->
+    <string name="mem_info">메모리</string>
+    <!-- GPU -->
+    <string name="gpu_title" translatable="false">GPU / OpenGL</string>
+    <string name="gpu_vendor">GPU 벤더</string>
+    <string name="gpu_renderer">GPU 렌더</string>
+    <string name="gpu_gl_version">OpenGL 버전</string>
+    <string name="gpu_gl_extensions">OpenGL extensions</string>
+    <string name="gpu_shader_version">Shader 버전</string>
+
+    <!-- Disable Camera Shutter Sound -->
+    <string name="camera_sounds_title">카메라 셔터음</string>
+
+    <string name="long_press_kill_delay">어플 딜레이 삭제</string>
+
+    <!-- Display density -->
+    <string name="display_density">화면 밀도</string>
+    <string name="display_density_summary">화면 밀도를 변경합니다.(0은 비활성화입니다, 재부팅이 필요합니다.)</string>
+    <string name="display_density_override">밀도 보고</string>
+    <string name="display_density_override_summary">화면 밀도를 애플리케이션에 보고합니다.(0은 비활성화입니다, 재부팅이 필요합니다.)</string>
+
+    <!-- Instant reboot -->
+    <string name="advanced_reboot_oneclick">원클릭 리부팅</string>
+    <string name="advanced_reboot_oneclick_summary">한번의 클릭으로 리부팅을 실행합니다</string>
+
+    <!-- Captive Portal -->
+    <string name="captive_portal_detection">Captive portal detection</string>
+    <string name="captive_portal_detection_summary">If enabled, a connection to Google servers is required in order to detect data connection when using wifi.</string>
+
+    <!-- Smart cover -->
+    <string name="smart_cover_title">스마트 커버</string>
+    <string name="lid_settings_title">커버</string>
+    <string name="lid_controls_sleep_title">화면 끄기</string>
+    <string name="lid_controls_sleep_summary">커버를 닫으면 화면이 꺼집니다.</string>
+    <string name="lid_controls_wake_title">화면 켜기</string>
+    <string name="lid_controls_wake_summary">커버를 열면 화면이 켜집니다.</string>
+
+    <!-- Lock screen wallpaper -->
+    <string name="lockscreen_wallpaper_title">배경화면</string>
+    <string name="lockscreen_wallpaper_set_title">잠금화면 배경화면 변경</string>
+    <string name="lockscreen_wallpaper_set_toast">잠금화면 배경화면을 변경하였습니다</string>
+    <string name="lockscreen_wallpaper_clear_title">잠금화면 배경화면 초기화</string>
+    <string name="lockscreen_wallpaper_clear_toast">잠금화면 배경화면을 초기화하였습니다</string>
+
+    <!-- Quick settings -->
+    <string name="qs_tiles_vibrate_title">터치하면 진동 울리기</string>
+
+    <!-- Power menu -->
+    <string name="hardware_keys_power_chord_title">전원버튼 동작</string>
+    <string name="hardware_keys_power_volume_down_press_title">볼륨키 하</string>
+    <string name="hardware_keys_power_volume_up_press_title">볼륨키 상</string>
+
+    <!-- Unaccounted and overcounted battery stats -->
+    <string name="show_unac_and_overcounted_stats_title">Show unaccounted/overcounted stats</string>
+    <string name="show_unac_and_overcounted_stats_summary">Show in battery statistics unaccounted and over-counted usage.</string>
+
+    <!-- Anonymous statistics -->
+    <string name="anonymous_statistics_title_n">NamelessRom 통계</string>
+    <string name="anonymous_statistics_summary_n">NamelessRom에 통계를 보냅니다.</string>
+
+    <!-- Privacy guard notification -->
+    <string name="privacy_guard_notification_title">알림</string>
+    <string name="privacy_guard_notification_summary">프라이버시 가드가 활성화된경우 알림을 표시합니다.</string>
+
+    <!-- QuickSettings: Smart Pulldown -->
+    <string name="smart_pulldown_title">스마트 pulldown</string>
+    <string name="smart_pulldown_summary">Open Quick Settings when there are %1$s notifications present</string>
+    <string name="smart_pulldown_off">끄기</string>
+    <string name="smart_pulldown_dismissable">No dismissable</string>
+    <string name="smart_pulldown_persistent">No persistent</string>
+    <string name="smart_pulldown_all">No dismissable or persistent</string>
+
+    <!-- Network traffic indicator -->
+    <string name="network_traffic_title">네트워크 트래픽 인디게이터</string>
+    <string name="show_network_traffic_state">상단바 네트워크 트래픽 모니터</string>
+    <string name="show_network_traffic_unit">표시 단위</string>
+    <string name="show_network_traffic_frequency">업데이트 간격</string>
+    <string name="show_network_traffic_disable">비활성화</string>
+    <string name="show_network_traffic_up">업로드</string>
+    <string name="show_network_traffic_down">다운로드</string>
+    <string name="show_network_traffic_all">업로드와다운로드</string>
+    <string name="show_network_traffic_bit">비트/초</string>
+    <string name="show_network_traffic_byte">바이트/초</string>
+    <string name="show_network_traffic_500" translatable="false">500 ms</string>
+    <string name="show_network_traffic_1000" translatable="false">1000 ms</string>
+    <string name="show_network_traffic_1500" translatable="false">1500 ms</string>
+    <string name="show_network_traffic_2000" translatable="false">2000 ms</string>
+    <string name="network_traffic_autohide">자동 숨기기</string>
+    <string name="network_traffic_autohide_summary">작업이 없을 때트래픽 모니터를 숨깁니다.</string>
+    <string name="network_traffic_autohide_threshold">비활성 값</string>
+
+    <!-- Status bar battery style -->
+    <string name="status_bar_battery_style_circle_dotted">원(도트 형식)</string>
+
+    <!-- Recents clear all location -->
+    <string name="recents_clear_all_location">Recents clear all location</string>
+    <string name="recents_clear_all_location_top_left">왼쪽/위</string>
+    <string name="recents_clear_all_location_top_right">왼쪽/위</string>
+    <string name="recents_clear_all_location_bottom_left">왼쪽/아래</string>
+    <string name="recents_clear_all_location_bottom_right">오른쪽/아래</string>
+
+    <!-- Navigation bar -->
+    <string name="hardware_keys_disable_title">하드웨어키 끄기</string>
+    <string name="hardware_keys_disable_summary">하드웨어키를 끕니다.</string>
+
+    <!--Status bar date -->
+    <string name="status_bar_clock_category">시계</string>
+    <string name="status_bar_date_title">날짜</string>
+    <string name="status_bar_date_none">숨기기(기본)</string>
+    <string name="status_bar_date_small">작게</string>
+    <string name="status_bar_date_normal">중간</string>
+    <string name="status_bar_date_format_title">날짜 포맷</string>
+    <string name="status_bar_date_style">날짜 스타일</string>
+    <string name="status_bar_date_style_normal">중간</string>
+    <string name="status_bar_date_style_lowercase">소문자</string>
+    <string name="status_bar_date_style_uppercase">대문자</string>
+    <string name="status_bar_date_format_custom">java 포맷 사용자지정</string>
+    <string name="status_bar_date_string_edittext_title">날짜 포맷은 예시와 같이 해주세요. 예)MM/dd/yy</string>
+    <string name="status_bar_date_string_edittext_summary">java 포맷 입력</string>
+</resources>
