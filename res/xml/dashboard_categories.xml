@@ -143,8 +143,7 @@
             android:id="@+id/device_control_settings"
             android:title="@string/device_control_settings_title"
             android:icon="@drawable/ic_settings_device_control"
-            android:targetClass="android.intent.category.LAUNCHER" 
-	    android:targetPackage="org.namelessrom.devicecontrol" >
+			android:fragment="org.namelessrom.devicecontrol.DummyLauncher" />
         </dashboard-tile>
 
         <!-- Gestures -->
@@ -211,6 +210,13 @@
             android:fragment="com.android.settings.DisplaySettings"
             android:icon="@drawable/ic_settings_display"
             />		
+			
+	    <!-- PerformanceControl -->
+        <dashboard-tile
+                android:id="@+id/performance_controls"
+                android:fragment="com.brewcrewfoo.performance.activities.MainActivity"
+                android:icon="@drawable/ic_settings_performance"
+                android:title="@string/performance_settings" />
 		
     </dashboard-category>
 
