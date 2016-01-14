@@ -143,8 +143,7 @@
             android:id="@+id/device_control_settings"
             android:title="@string/device_control_settings_title"
             android:icon="@drawable/ic_settings_device_control"
-			android:fragment="org.namelessrom.devicecontrol.DummyLauncher" />
-        </dashboard-tile>
+	    android:fragment="org.namelessrom.devicecontrol.DummyLauncher" />
 
         <!-- Gestures -->
         <dashboard-tile
