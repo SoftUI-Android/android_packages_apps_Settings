@@ -213,16 +213,6 @@
             android:icon="@drawable/ic_settings_display"
             />		
 			
-	    <!-- PerformanceControl -->
-        <dashboard-tile
-                android:id="@+id/performance_controls"
-                android:icon="@drawable/ic_settings_performance"
-                android:title="@string/performance_settings">
-				<intent
-				android:targetPackage="com.brewcrewfoo.performance"
-				android:targetClass="com.brewcrewfoo.performance.activities.MainActivity" />
-	    </dashboard-tile>
-		
     </dashboard-category>
 
     <!-- DEVICE -->
